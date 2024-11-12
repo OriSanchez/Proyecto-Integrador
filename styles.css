@@ -1,0 +1,97 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+    background-color: #2f2f2f; /* Fondo gris oscuro */
+    color:rgb(219, 207, 207);
+}
+
+header {
+    text-align:justify;
+    margin-bottom: 200px;
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.info {
+    text-align: center;
+    margin: 50px;
+}
+
+
+header  h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(199, 173, 141);
+    opacity: 0; /* Comienza con el texto oculto */
+    transition: opacity 0.5s ease; /* Transición para el efecto */
+
+}
+
+#perfil{
+    border-radius: 15px;
+}
+
+header img {
+    max-width: 500px; /* Ajusta según necesites */
+    border: radius 20%; /* Si tienes una foto, la hace circular */
+    margin: 20px;
+    padding: 0;
+    border-radius: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    color: #ffcc00; /* Color para los subtítulos */
+}
+
+.section {
+    margin: 30px 0;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.job {
+    margin-top: 10px;
+
+}
+
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #eee7e7;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.contact-link:hover {
+    color: #0073e6;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #444; /* Fondo del pie de página */
+    border-radius: 20px;
+}
